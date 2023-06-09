@@ -1,0 +1,34 @@
+$col-primary: #00A0DE;
+$col-dark: #00487C;
+$col-darkest: #0D0630;
+$col-highlight: #53DD6C;
+$col-grey: #FFF0F0;
+
+$col-orange-400: hsl(22 94% 58%);
+
+:root {
+
+    --hsl-col-blue-950: 213 47% 13%;
+    --hsl-col-blue-900: 213 47% 17%;
+    --hsl-col-blue-400: 210 96% 31%;
+    --hsl-col-blue-200: 194 100% 49%;
+    --hsl-col-orange-400: 22 94% 58%;
+
+
+
+    --col-blue-950: hsl(var(--hsl-col-blue-950));
+    --col-blue-900: hsl(var(--hsl-col-blue-900));
+    --col-blue-400: hsl(var(--hsl-col-blue-400));
+    --col-blue-200: hsl(var(--hsl-col-blue-200));
+    --col-orange-400: hsl(var(--hsl-col-orange-400));
+
+    --col-grey-200: #e2e2e2;
+
+    --h-top: 145px;
+
+    --fw-400: 400;
+    --fw-700: 700;
+
+
+    --transition: 0.2s ease-out;
+}

@@ -1,0 +1,28 @@
+.btn--small {
+    width: 160px;
+    padding: 0.75rem 1rem;
+    height: auto;
+}
+
+.btn {
+    position: relative;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    min-width: 8.125rem;
+}
+
+.btn--orange {
+    color: white;
+    text-transform: uppercase;
+    font-weight: var(--fw-700);
+    background-color: var(--col-orange-400);
+    font-size: 0.889rem;
+    padding: 5px 20px;
+    border-radius: 100vw;
+    &:hover {
+        background: lighten($col-orange-400, 10%);
+        color: white;
+    }
+}

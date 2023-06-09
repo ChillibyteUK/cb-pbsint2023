@@ -1,0 +1,61 @@
+
+#wrapper-navbar {
+
+    // .navbar-toggler i {
+    //     color: #fff;
+    // }
+
+    .topNav {
+        ul {
+            list-style: none;
+        }
+        a:not(.btn) {
+            color: var(--col-blue-400);
+            text-decoration: none;
+            line-height: 1;
+            &:hover {
+                color: var(--col-orange-400);
+            }
+        }
+    }
+    .navbar {
+        background-color: var(--col-blue-400);
+
+        li.menu-item {
+            a:not(.dropdown-item) {
+                color: white;
+            }
+        }
+    }
+
+//     .nav-item {
+//         .btn {
+//             display: block;
+//             color: black;
+//         }
+//         &.current_page_item  {
+//             a {
+//                 color: var(--col-green-200);
+//             }
+//         }
+//     }
+
+    .logo-container {
+        max-width: 170px;
+        margin-right: 1rem;
+    }
+    .logo {
+        background-image: url(../img/pbs-logo-small.svg);
+        @media (min-width:1200px) {
+            background-image: url(../img/pbs-logo-full.svg);
+        }
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: inline-block;
+        aspect-ratio: 171/77;
+        width: 170px;
+        max-width: 100%;
+    }
+
+}
