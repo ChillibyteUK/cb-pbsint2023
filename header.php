@@ -103,9 +103,7 @@ do_action('wp_body_open');
 ?>
 <div id="wrapper-navbar" class="fixed-top p-0">
     <div class="topNav d-flex justify-content-between container-xl">
-        <div class="logo">
-            <a href="/" class="navbar-brand logo-link" rel="home"></a>
-        </div>
+        <a class="logo" href="/"></a>
         <div class="d-flex justify-content-between align-items-center w-100 ms-5 d-xl-none">
             <a href="tel:<?=parse_phone(get_field('gatwick_phone','options'))?>" class="mr-3 text-center"><i class="fas fa-phone-alt"></i><br/>LGW</a>
             <a href="tel:<?=parse_phone(get_field('heathrow_phone','options'))?>" class="mr-3 text-center"><i class="fas fa-phone-alt"></i><br/>LHR</a>

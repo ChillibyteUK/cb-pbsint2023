@@ -84,3 +84,22 @@ body .gform_wrapper .gform_footer button {
     display: flex;
     justify-content: space-around;
 }
+
+.gform_button.button {
+    font-weight: var(--fw-700) !important;
+    background-color: var(--col-orange-400) !important;
+    color: white !important;
+    border-color: transparent !important;
+    border-radius: 100vw !important;
+    font-size: 1rem !important;
+    padding: 5px 20px !important;
+    text-transform: uppercase !important;
+    &:hover {
+        background-color: lighten($col-orange-400, 10%) !important;
+    }
+}
+
+.gform_wrapper.gravity-theme .gform_fields {
+    grid-column-gap: 0.5rem !important;
+    grid-row-gap: 0.5rem !important;
+}

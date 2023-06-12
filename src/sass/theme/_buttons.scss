@@ -18,11 +18,39 @@
     text-transform: uppercase;
     font-weight: var(--fw-700);
     background-color: var(--col-orange-400);
-    font-size: 0.889rem;
+    font-size: 1rem;
     padding: 5px 20px;
     border-radius: 100vw;
     &:hover {
         background: lighten($col-orange-400, 10%);
+        color: white;
+    }
+}
+.btn--blue {
+    color: white;
+    text-transform: uppercase;
+    font-weight: var(--fw-700);
+    background-color: var(--col-blue-400);
+    font-size: 1rem;
+    padding: 5px 20px;
+    border-radius: 100vw;
+    &:hover {
+        background: lighten($col-blue-400, 10%);
+        color: white;
+    }
+}
+
+.btn--blue-outline {
+    color: var(--col-blue-400);
+    border: 1px solid var(--col-blue-400);
+    text-transform: uppercase;
+    font-weight: var(--fw-700);
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 5px 20px;
+    border-radius: 100vw;
+    &:hover {
+        background: lighten($col-blue-400, 10%);
         color: white;
     }
 }

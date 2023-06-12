@@ -1,0 +1,22 @@
+.pull_quote {
+    &__quote {
+        position: relative;
+        max-width: 60ch;
+        margin: auto;
+        margin-bottom: 1rem;
+        &::before {
+            content: "\f10d";
+            font-family: "font awesome 6 free";
+            font-weight: 600;
+            color: var(--col-blue-400);
+            margin-right: 0.5rem;
+        }
+        &::after {
+            content: "\f10e";
+            font-family: "font awesome 6 free";
+            font-weight: 600;
+            color: var(--col-blue-400);
+            margin-left: 0.5rem;
+        }
+    }
+}

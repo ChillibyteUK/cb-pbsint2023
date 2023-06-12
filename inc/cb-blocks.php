@@ -12,6 +12,15 @@ function acf_blocks()
             'supports' => array('mode' => false),
         ));
         acf_register_block_type(array(
+            'name'				=> 'cb_modal',
+            'title'				=> __('CB Modal'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_modal.php',
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
             'name'				=> 'cb_text_image',
             'title'				=> __('CB Text Image'),
             'category'			=> 'layout',
@@ -21,17 +30,53 @@ function acf_blocks()
             'supports' => array('mode' => false),
         ));
         acf_register_block_type(array(
-            'name'				=> 'cb_two_col_text',
-            'title'				=> __('CB Two Col Text'),
+            'name'				=> 'cb_spinner',
+            'title'				=> __('CB Spinner'),
             'category'			=> 'layout',
             'icon'				=> 'cover-image',
-            'render_template'	=> 'page-templates/blocks/cb_two_col_text.php',
+            'render_template'	=> 'page-templates/blocks/cb_spinner.php',
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
+            'name'				=> 'cb_members',
+            'title'				=> __('CB Members'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_members.php',
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
+            'name'				=> 'cb_nav_cards',
+            'title'				=> __('CB Nav Cards'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_nav_cards.php',
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
+            'name'				=> 'cb_destinations_carousel',
+            'title'				=> __('CB Destinations Carousel'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_destinations_carousel.php',
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
+            'name'				=> 'cb_faqs',
+            'title'				=> __('CB FAQs'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_faqs.php',
             'mode'	=> 'edit',
             'supports' => array('mode' => false),
         ));
         acf_register_block_type(array(
             'name'				=> 'cb_contact',
-            'title'				=> __('CB Contact Block'),
+            'title'				=> __('CB Contact'),
             'category'			=> 'layout',
             'icon'				=> 'cover-image',
             'render_template'	=> 'page-templates/blocks/cb_contact.php',
@@ -39,23 +84,77 @@ function acf_blocks()
             'supports' => array('mode' => false),
         ));
         acf_register_block_type(array(
-            'name'				=> 'cb_team_cols',
-            'title'				=> __('CB Team Cols'),
+            'name'				=> 'cb_pull_quote',
+            'title'				=> __('CB Pull Quote'),
             'category'			=> 'layout',
             'icon'				=> 'cover-image',
-            'render_template'	=> 'page-templates/blocks/cb_team_cols.php',
+            'render_template'	=> 'page-templates/blocks/cb_pull_quote.php',
             'mode'	=> 'edit',
             'supports' => array('mode' => false),
         ));
         acf_register_block_type(array(
-            'name'				=> 'cb_notice',
-            'title'				=> __('CB Notice'),
+            'name'				=> 'cb_enquiries',
+            'title'				=> __('CB Enquiry Form'),
             'category'			=> 'layout',
             'icon'				=> 'cover-image',
-            'render_template'	=> 'page-templates/blocks/cb_notice.php',
+            'render_template'	=> 'page-templates/blocks/cb_enquiries.php',
             'mode'	=> 'edit',
             'supports' => array('mode' => false),
         ));
+        acf_register_block_type(array(
+            'name'				=> 'cb_latest_news',
+            'title'				=> __('CB Latest News'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_latest_news.php',
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
+        acf_register_block_type(array(
+            'name'				=> 'cb_img_banner',
+            'title'				=> __('CB Image Banner'),
+            'category'			=> 'layout',
+            'icon'				=> 'cover-image',
+            'render_template'	=> 'page-templates/blocks/cb_img_banner.php',
+            'mode'	=> 'edit',
+            'supports' => array('mode' => false),
+        ));
+        // acf_register_block_type(array(
+        //     'name'				=> 'cb_two_col_text',
+        //     'title'				=> __('CB Two Col Text'),
+        //     'category'			=> 'layout',
+        //     'icon'				=> 'cover-image',
+        //     'render_template'	=> 'page-templates/blocks/cb_two_col_text.php',
+        //     'mode'	=> 'edit',
+        //     'supports' => array('mode' => false),
+        // ));
+        // acf_register_block_type(array(
+        //     'name'				=> 'cb_contact',
+        //     'title'				=> __('CB Contact Block'),
+        //     'category'			=> 'layout',
+        //     'icon'				=> 'cover-image',
+        //     'render_template'	=> 'page-templates/blocks/cb_contact.php',
+        //     'mode'	=> 'edit',
+        //     'supports' => array('mode' => false),
+        // ));
+        // acf_register_block_type(array(
+        //     'name'				=> 'cb_team_cols',
+        //     'title'				=> __('CB Team Cols'),
+        //     'category'			=> 'layout',
+        //     'icon'				=> 'cover-image',
+        //     'render_template'	=> 'page-templates/blocks/cb_team_cols.php',
+        //     'mode'	=> 'edit',
+        //     'supports' => array('mode' => false),
+        // ));
+        // acf_register_block_type(array(
+        //     'name'				=> 'cb_notice',
+        //     'title'				=> __('CB Notice'),
+        //     'category'			=> 'layout',
+        //     'icon'				=> 'cover-image',
+        //     'render_template'	=> 'page-templates/blocks/cb_notice.php',
+        //     'mode'	=> 'edit',
+        //     'supports' => array('mode' => false),
+        // ));
 
     }
 }

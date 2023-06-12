@@ -1,6 +1,7 @@
 <?php
 $colour = get_field('theme');
 $background = '';
+$title = '';
 switch ($colour) {
     case 'Dark':
         $background = 'has-dark-background-color text-white';
@@ -8,9 +9,10 @@ switch ($colour) {
     case 'Mid':
         $background = 'has-grey-background-color';
         break;
-    // case 'Light':
-    //     $background = '';
-    //     break;
+    case 'Light':
+        $background = '';
+        $title = 'has-primary-color';
+        break;
 }
 
 $breakout = '';
@@ -41,16 +43,28 @@ if (get_field('order') == 'image-text') {
 ?>
 <section class="text_image <?=$breakout?>">
     <div class="container-xl <?=$background?> py-5">
-        <div class="d-lg-none"><h2><?=get_field('title')?></h2></div>
+        <div class="d-lg-none"><div class="h2 <?=$title?>"><?=get_field('title')?></div></div>
         <div class="row align-items-center g-4">
             <div class="<?=$splitText?> <?=$orderText?>">
-                <h2 class="d-none d-lg-block"><?=get_field('title')?></h2>
-                <div><?=get_field('content')?></div>
+                <h2 class="d-none d-lg-block <?=$title?>"><?=get_field('title')?></h2>
+                <div class="mb-4"><?=get_field('content')?></div>
                 <?php
-                if (get_field('cta')) {
-                    $link = get_field('cta');
+                if (get_field('cta_1')) {
+                    $link = get_field('cta_1');
                     ?>
-                    <a href="<?=$link['url']?>" class="btn btn--accent"><?=$link['title']?></a>
+                    <a href="<?=$link['url']?>" class="btn btn--blue"><?=$link['title']?></a>
+                    <?php
+                }
+                if (get_field('cta_2')) {
+                    $link = get_field('cta_2');
+                    ?>
+                    <a href="<?=$link['url']?>" class="btn btn--orange"><?=$link['title']?></a>
+                    <?php
+                }
+                if (get_field('cta_3')) {
+                    $link = get_field('cta_3');
+                    ?>
+                    <a href="<?=$link['url']?>" class="btn btn--blue-outline"><?=$link['title']?></a>
                     <?php
                 }
                 ?>

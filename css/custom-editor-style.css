@@ -11,7 +11,7 @@
   --col-blue-200: hsl(var(--hsl-col-blue-200));
   --col-orange-400: hsl(var(--hsl-col-orange-400));
   --col-grey-200: #e2e2e2;
-  --h-top: 145px;
+  --h-top: 125px;
   --fw-400: 400;
   --fw-700: 700;
   --transition: 0.2s ease-out;

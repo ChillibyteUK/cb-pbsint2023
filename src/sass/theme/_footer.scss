@@ -20,8 +20,13 @@ footer {
     }
     .footer__heading {
         font-size: 1rem;
-        font-weight: var(--fw-900);
+        font-weight: var(--fw-700);
         margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        border-bottom: 1px solid white;
+    }
+    .contact__title {
+        font-weight: var(--fw-700);
     }
     .fa-ul {
         margin-left: 1.5rem;

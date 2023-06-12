@@ -1,0 +1,26 @@
+.destinations_carousel {
+
+    p {
+        max-width: 90ch;
+        margin: auto;
+    }
+    a.carousel_card {
+        text-decoration: none;
+        color: var(--col-blue-400);
+        &:hover {
+            h3 {
+                color: var(--col-orange-400);
+            }
+        }
+    }
+    .carousel_card__inner {
+        margin-inline: 0.5rem;
+        border: 1px solid var(--col-grey-200);
+        border-radius: 0.5rem;
+        overflow: hidden;
+        h3 {
+            padding: 1rem;
+            transition: color var(--transition);
+        }
+    }
+}

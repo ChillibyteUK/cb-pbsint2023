@@ -3,6 +3,26 @@
     "title": "Site-Wide Settings",
     "fields": [
         {
+            "key": "field_64806adca22ea",
+            "label": "Contact Email",
+            "name": "contact_email",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
             "key": "field_64806ac4a22e8",
             "label": "Gatwick Phone",
             "name": "gatwick_phone",
@@ -60,7 +80,47 @@
             "maxlength": "",
             "rows": 4,
             "placeholder": "",
-            "new_lines": ""
+            "new_lines": "br"
+        },
+        {
+            "key": "field_64871aec73abe",
+            "label": "Gatwicķ Map Embed",
+            "name": "gatwick_map_embed",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64871afd73abf",
+            "label": "Gatwick Directions URL",
+            "name": "gatwick_directions_url",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
         {
             "key": "field_64830960d088a",
@@ -118,14 +178,34 @@
             },
             "default_value": "",
             "maxlength": "",
-            "rows": "",
+            "rows": 4,
             "placeholder": "",
             "new_lines": "br"
         },
         {
-            "key": "field_64806adca22ea",
-            "label": "Contact Email",
-            "name": "contact_email",
+            "key": "field_64871b0c73ac0",
+            "label": "Heathrow Map Embed",
+            "name": "heathrow_map_embed",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_64871b1b73ac1",
+            "label": "Heathrow Directions URL",
+            "name": "heathrow_directions_url",
             "aria-label": "",
             "type": "text",
             "instructions": "",
@@ -181,5 +261,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1686310079
+    "modified": 1686576063
 }
