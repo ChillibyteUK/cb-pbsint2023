@@ -23098,6 +23098,50 @@ header.hero .carousel-caption .slide-meta .slide-info .slide-desc {
   color: #999;
 }
 
+.specialists {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.specialists a .external-box {
+  border: 1px solid #FFFFFF;
+  color: #FFFFFF;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  min-height: 265px;
+}
+.specialists a .external-box:hover {
+  color: #00BEFF;
+  border-color: #00BEFF;
+}
+.specialists .box-icon {
+  height: 150px;
+  width: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  vertical-align: middle;
+}
+.specialists .icon-carrier {
+  background-image: url(../img/pet-carrier.svg);
+}
+.specialists a:hover .icon-carrier {
+  background-image: url(../img/pet-carrier-capri.svg);
+}
+.specialists .icon-handgun {
+  background-image: url(../img/handgun.svg);
+}
+.specialists a:hover .icon-handgun {
+  background-image: url(../img/handgun-capri.svg);
+}
+.specialists .icon-truck {
+  background-image: url(../img/truck.svg);
+}
+.specialists a:hover .icon-truck {
+  background-image: url(../img/truck-capri.svg);
+}
+
 .wp-block-quote--cb {
   position: relative;
   z-index: 0;

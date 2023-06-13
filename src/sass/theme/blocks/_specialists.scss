@@ -1,0 +1,44 @@
+.specialists {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    a .external-box {
+        border: 1px solid #FFFFFF;
+        color: #FFFFFF;
+        padding: 2rem 1.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        min-height: 265px;
+    }
+    a .external-box:hover {
+        color: #00BEFF;
+        border-color: #00BEFF;
+    }
+
+    .box-icon {
+        height: 150px;
+        width: auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        vertical-align: middle; }
+      
+      .icon-carrier {
+        background-image: url(../img/pet-carrier.svg); }
+      
+      a:hover .icon-carrier {
+        background-image: url(../img/pet-carrier-capri.svg); }
+      
+      .icon-handgun {
+        background-image: url(../img/handgun.svg); }
+      
+      a:hover .icon-handgun {
+        background-image: url(../img/handgun-capri.svg); }
+      
+      .icon-truck {
+        background-image: url(../img/truck.svg); }
+      
+      a:hover .icon-truck {
+        background-image: url(../img/truck-capri.svg); }
+}
