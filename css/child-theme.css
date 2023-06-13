@@ -23103,13 +23103,20 @@ header.hero .carousel-caption .slide-meta .slide-info .slide-desc {
   background-position: center;
   background-repeat: no-repeat;
 }
+.specialists .page-title {
+  font-size: 2.75rem;
+  line-height: 1.2;
+  font-weight: 400;
+}
 .specialists a .external-box {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
   padding: 2rem 1.5rem;
   text-align: center;
   text-transform: uppercase;
+  text-decoration: none;
   min-height: 265px;
+  transition: border var(--transition), color var(--transition);
 }
 .specialists a .external-box:hover {
   color: #00BEFF;
