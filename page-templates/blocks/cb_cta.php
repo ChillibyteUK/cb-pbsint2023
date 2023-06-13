@@ -7,8 +7,8 @@
         <div class="col-lg-8 order-lg-2">
             <?=get_field('content')?>
             <div class="text-center mt-4">
-                <a class="btn--no-arrow btn--blue" href="mailto:info@pbs-int.co.uk">info@pbs-int.co.uk</a>
-                <a class="btn--no-arrow btn--blue" href="tel:+441293551140">Call Us</a>
+                <a class="btn--no-arrow btn btn--blue" href="mailto:info@pbs-int.co.uk">info@pbs-int.co.uk</a>
+                <a class="btn--no-arrow btn btn--blue" href="tel:+441293551140">Call Us</a>
             </div>
         </div>
     </div>
