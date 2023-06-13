@@ -22627,6 +22627,42 @@ footer .fa-ul li {
   color: black;
 }
 
+.blog__image {
+  width: 100%;
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.sidebar {
+  background-color: var(--col-blue-400);
+  padding: 1rem;
+  border-radius: 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc(1rem + 125px);
+  margin-bottom: 1rem;
+}
+.sidebar li {
+  list-style: none;
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
+  font-size: 0.889rem;
+  margin-bottom: 0.5rem;
+}
+.sidebar li a {
+  text-decoration: none;
+  color: white;
+  transition: all var(--transition);
+}
+.sidebar li a:hover {
+  color: var(--col-orange-400);
+}
+
 .form-control, .gform_wrapper.gravity-theme input[type=text],
 .gform_wrapper.gravity-theme input[type=email],
 .gform_wrapper.gravity-theme input[type=tel],
@@ -23079,6 +23115,10 @@ a.anchor {
 
 #breadcrumbs {
   font-size: 0.889rem;
+}
+
+.breadcrumbs {
+  padding-block: 0.25rem;
 }
 
 .reading {

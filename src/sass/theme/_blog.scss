@@ -132,4 +132,40 @@
     .news__content {
         color: black;
     }
+
+}
+.blog {
+    &__image {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        object-position: center;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+    }
+
+}
+
+.sidebar {
+    background-color: var(--col-blue-400);
+    padding: 1rem;
+    border-radius: 1rem;
+    position: sticky;
+    top: calc(1rem + 125px);
+    margin-bottom: 1rem;
+
+    li {
+        list-style: none;
+        padding-inline-start: 0;
+        font-size: 0.889rem;
+        margin-bottom: 0.5rem;
+        a {
+            text-decoration: none;
+            color: white;
+            transition: all var(--transition);
+            &:hover {
+                color: var(--col-orange-400);
+            }
+        }
+    }
 }
