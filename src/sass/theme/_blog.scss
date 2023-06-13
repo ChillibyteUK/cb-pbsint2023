@@ -170,7 +170,7 @@
     }
 }
 
-.navigation {
+.blog_index .navigation {
     width: fit-content;
     border-radius: 0.25rem;
     ul{
@@ -188,6 +188,7 @@
             a {
                 cursor: default;
                 font-weight: 600;
+                color: white;
             }
         }
         &:first-of-type {
@@ -206,6 +207,7 @@
         text-decoration: none;
         color: black;
         padding: 0.5rem 1rem;
+        border: none;
     }
 
 }
