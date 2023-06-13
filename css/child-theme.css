@@ -23019,6 +23019,7 @@ header.hero .carousel-caption .slide-meta .slide-info .slide-desc {
   padding: 1rem;
   border-radius: 1rem;
   border: 1px solid var(--col-grey-200);
+  height: 100%;
 }
 
 .text--bronze {
