@@ -54,13 +54,6 @@ a.anchor {
     }
 }
 
-:not(.share-icons,.social-icons,figure,.cb,.rplg-biz-name) > a[target="_blank"]:not(.btn)::after {
-    content: "\f08e";
-    font-family: "Font Awesome 6 Free";
-    font-weight: 600;
-    margin-left: 0.5rem;
-    display: inline-block;
-}
 
 
 #breadcrumbs {
@@ -76,9 +69,17 @@ a.anchor {
     font-style: italic;
 }
 
-:not(.share-icons,.social-icons,figure,.cb,.rplg-biz-name) > a[target="_blank"]:not(.btn)::after {
-    font-weight: 600;
-}
+// :not(.share-icons,.social-icons,figure,.cb,.rplg-biz-name) > a[target="_blank"]:not(.btn)::after {
+//     content: "\f08e";
+//     font-family: "Font Awesome 6 Free";
+//     font-weight: 600;
+//     margin-left: 0.5rem;
+//     display: inline-block;
+// }
+
+// :not(.share-icons,.social-icons,figure,.cb,.rplg-biz-name) > a[target="_blank"]:not(.btn)::after {
+//     font-weight: 600;
+// }
 
 // show stuff that overflows horizontally
 // * {

@@ -9,6 +9,7 @@
   --col-blue-900: hsl(var(--hsl-col-blue-900));
   --col-blue-400: hsl(var(--hsl-col-blue-400));
   --col-blue-200: hsl(var(--hsl-col-blue-200));
+  --col-blue-200-tx: hsl(194 100% 50% / 80%);
   --col-orange-400: hsl(var(--hsl-col-orange-400));
   --col-grey-200: #e2e2e2;
   --h-top: 125px;

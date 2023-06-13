@@ -89,3 +89,13 @@ header.hero {
 }
 
 
+.icon_hero {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    .bg-capri-80 {
+        background-color: var(--col-blue-200-tx);
+    }
+}
