@@ -1,4 +1,8 @@
-<div class="hero icon_hero pb-4 mb-4" style="background-image:url(<?=get_the_post_thumbnail_url(get_the_ID(),'full')?>)">
+<?php
+$img = get_the_post_thumbnail_url(get_the_ID(),'full');
+?>
+<link rel="preload" as="image" href="<?=$img?>">
+<div class="hero icon_hero pb-4 mb-4" style="background-image:url(<?=$img?>)">
     <div class="container text-white h-100">
         <div class="row h-100">
             <div class="col-12 my-auto">
