@@ -22939,6 +22939,13 @@ header.hero .carousel-caption .slide-meta .slide-info .slide-desc {
   padding: 1rem;
   transition: color var(--transition);
 }
+.destinations_carousel .carousel_card__inner img {
+  aspect-ratio: 16/9;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+}
 
 .faq_block {
   padding: 1rem 0 1rem 0;

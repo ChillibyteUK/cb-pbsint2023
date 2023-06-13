@@ -22,5 +22,10 @@
             padding: 1rem;
             transition: color var(--transition);
         }
+        img {
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+            object-position: center;
+        }
     }
 }
