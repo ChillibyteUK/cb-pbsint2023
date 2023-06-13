@@ -34,7 +34,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "Contact the Shipping Experts",
             "maxlength": "",
             "placeholder": "",
             "prepend": "",
@@ -54,7 +54,7 @@
                 "class": "",
                 "id": ""
             },
-            "default_value": "",
+            "default_value": "We have a team of experts in Air, Sea and Road shipping ready to help you get your goods to where they need to be. We also have Warehouse and Storage services available. If you have any questions or enquiries, please get in contact.",
             "maxlength": "",
             "rows": 4,
             "placeholder": "",
@@ -79,5 +79,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1686655822
+    "modified": 1686658533
 }
