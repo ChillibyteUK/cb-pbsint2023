@@ -23015,6 +23015,28 @@ header.hero .carousel-caption .slide-meta .slide-info .slide-desc {
   max-width: min(800px, 90vw);
 }
 
+.four_cards__card {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid var(--col-grey-200);
+}
+
+.text--bronze {
+  color: #9e5743;
+}
+
+.text--silver {
+  color: silver;
+}
+
+.text--gold {
+  color: #bd9732;
+}
+
+.text--platinum {
+  color: #999;
+}
+
 .wp-block-quote--cb {
   position: relative;
   z-index: 0;

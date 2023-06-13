@@ -1,0 +1,20 @@
+.four_cards {
+    &__card {
+        padding: 1rem;
+        border-radius: 1rem;
+        border: 1px solid var(--col-grey-200);
+    }
+}
+
+.text--bronze {
+    color: #9e5743;
+}
+.text--silver {
+    color: silver;
+}
+.text--gold {
+    color: #bd9732;
+}
+.text--platinum {
+    color: #999;
+}
