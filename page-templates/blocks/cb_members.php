@@ -1,7 +1,7 @@
 <section class="py-5 has-grey-background-color members">
     <div class="container-xl text-center">
         <h3 class="h1 has-primary-color mb-4">We're Proud Members of</h3>
-        <div class="row">
+        <div class="row g-4">
             <div class="col-md-6 col-lg-3">
                 <div class="members__card">
                     <img src="<?=get_stylesheet_directory_uri()?>/img/badges/IATAlogo.svg" alt="IATA">

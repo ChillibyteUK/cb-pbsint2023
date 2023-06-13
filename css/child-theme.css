@@ -22670,6 +22670,46 @@ footer .fa-ul li {
   color: var(--col-orange-400);
 }
 
+.navigation {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0.25rem;
+}
+.navigation ul {
+  list-style: none;
+  display: flex;
+  -webkit-padding-start: 0;
+  padding-inline-start: 0;
+}
+.navigation li {
+  border: 1px solid var(--col-blue-400);
+  border-right: none;
+  background-color: white;
+}
+.navigation li.active {
+  background-color: var(--col-blue-400);
+}
+.navigation li.active a {
+  cursor: default;
+  font-weight: 600;
+}
+.navigation li:first-of-type {
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+.navigation li:last-of-type {
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-right: 1px solid var(--col-blue-400);
+}
+.navigation a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 0.5rem 1rem;
+}
+
 .form-control, .gform_wrapper.gravity-theme input[type=text],
 .gform_wrapper.gravity-theme input[type=email],
 .gform_wrapper.gravity-theme input[type=tel],
@@ -22839,6 +22879,17 @@ header.hero .carousel-caption .slide-meta .slide-info .slide-desc {
 .text_image__image {
   border-radius: 1rem;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.text_image .buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+@media (min-width: 992px) {
+  .text_image .buttons {
+    justify-content: flex-start;
+  }
 }
 
 .spinner__container {

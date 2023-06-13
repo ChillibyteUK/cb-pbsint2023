@@ -48,6 +48,7 @@ if (get_field('order') == 'image-text') {
             <div class="<?=$splitText?> <?=$orderText?>">
                 <h2 class="d-none d-lg-block <?=$title?>"><?=get_field('title')?></h2>
                 <div class="mb-4"><?=get_field('content')?></div>
+                <div class="buttons">
                 <?php
                 if (get_field('cta_1')) {
                     $link = get_field('cta_1');
@@ -68,6 +69,7 @@ if (get_field('order') == 'image-text') {
                     <?php
                 }
                 ?>
+                </div>
             </div>
             <div class="<?=$splitImage?> <?=$orderImage?> text-center">
                 <?=wp_get_attachment_image(get_field('image'), 'large', null, array('class' => 'text_image__image'))?>
