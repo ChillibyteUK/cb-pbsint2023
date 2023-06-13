@@ -9,8 +9,14 @@ $bg = get_the_post_thumbnail_url($page_for_posts,'full');
 
 get_header();
 ?>
-<main id="main">
-
+<main id="main" class="blog_index">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-lg-4 order-lg-1">
+                <h1 class="page-title border-bottom-thick">PBS International News</h1>
+            </div>
+        </div>
+    </div>
     <div class="container-xl py-5">
         <?php
         if (get_the_content(null, false, $page_for_posts)) {
@@ -30,7 +36,7 @@ get_header();
         echo '</div>';
         */
         ?>
-        <div class="row w-100" id="grid">
+        <div class="row w-100 g-4" id="grid">
             <?php
             while (have_posts()) {
                 the_post();
