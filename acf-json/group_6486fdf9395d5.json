@@ -155,7 +155,7 @@
                     "label": "Link",
                     "name": "link",
                     "aria-label": "",
-                    "type": "link",
+                    "type": "relationship",
                     "instructions": "",
                     "required": 0,
                     "conditional_logic": 0,
@@ -164,7 +164,16 @@
                         "class": "",
                         "id": ""
                     },
-                    "return_format": "array",
+                    "post_type": [
+                        "page"
+                    ],
+                    "post_status": "",
+                    "taxonomy": "",
+                    "filters": "",
+                    "return_format": "id",
+                    "min": "",
+                    "max": "",
+                    "elements": "",
                     "parent_repeater": "field_6486fe4062de9"
                 }
             ]
@@ -188,5 +197,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1686568562
+    "modified": 1686672186
 }

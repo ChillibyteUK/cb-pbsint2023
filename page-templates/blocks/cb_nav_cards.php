@@ -6,9 +6,9 @@
             <?php
             while(have_rows('services')) {
                 the_row();
-                $img = wp_get_attachment_image_url(get_sub_field('image'),'large') ?: get_the_post_thumbnail_url(get_the_ID(),'large');
+                $img = wp_get_attachment_image_url(get_sub_field('image'),'large') ?: get_the_post_thumbnail_url(get_sub_field('link')[0],'large');
                 ?>
-            <a class="nav_cards__card" href="<?=get_sub_field('link')['url']?>">
+            <a class="nav_cards__card" href="<?=get_the_permalink(get_sub_field('link')[0])?>">
                 <img src="<?=$img?>" alt="">
                 <div class="nav_cards__detail">
                     <h3><?=get_sub_field('title')?></h3>
